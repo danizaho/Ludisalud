@@ -13,7 +13,8 @@ export const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a className="nav-link active" aria-current="page" href="#">Home</a>
-        <a className="nav-link" href="#">Features</a>
+        
+        <Link to={"/formulario"} className="favoritos-button">Formulario </Link>
         <a className="nav-link" href="#">Pricing</a>
         <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Hello</a>
       </div>
