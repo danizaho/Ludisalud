@@ -7,7 +7,8 @@ export const Home = () => {
 	const { store, actions } = useContext(Context);
 
 	return (
-		<div className="inicio">
+		<div className="container-fluid">
+		<div className="inicio col-md-9">
 		<h1>Bienvenid@s a Boardgames4All</h1>
 		<p>El juego es algo innato en el ser humano. Desde que nacemos la manera en la que nos aprendemos a relacionar
 			es a través de él. Y cuando mejor aprendemos, es de esta manera.</p>
@@ -22,5 +23,7 @@ export const Home = () => {
 
 
 		</div>
+		</div>
+		
 	);
 };

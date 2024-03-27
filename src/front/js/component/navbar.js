@@ -6,13 +6,13 @@ export const Navbar = () => {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-light main-navbar">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#"><i class="bi bi-person"></i>Navbar</a>
+    <Link to={"/home"}><i class="bi bi-person"></i>Home</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a className="nav-link active" aria-current="page" href="#">Home</a>
+       
         
         <Link to={"/formulario"} className="favoritos-button">Formulario </Link>
         <a className="nav-link" href="#">Pricing</a>

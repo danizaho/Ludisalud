@@ -8,6 +8,7 @@ import { Demo } from "./pages/demo";
 import { Formulario } from "./pages/formulario";
 import { Single } from "./pages/single";
 import injectContext from "./store/appContext";
+import { Construction } from "./pages/construction";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
@@ -26,15 +27,25 @@ const Layout = () => {
             <BrowserRouter basename={basename}>
                 <ScrollToTop>
                     <Navbar />
+                    <div className="row">
+                    <div className="col-md-3">
                     <NavbarLateral />
+                    </div>
+
+                  
+                    <div className="col-md-9">
                     <Routes>
-                        <Route element={<Home />} path="/" />
+                        <Route element={<Home />} path="/home" />
                         <Route element={<Demo />} path="/demo" />
                         <Route element={<Single />} path="/single/:theid" />
                         <Route element={<h1>Not found!</h1>} />
                         <Route element={<Formulario />} path="/formulario"/>
+                        <Route element={<Construction />} path="/construction"/>
                         
                     </Routes>
+                    </div>
+                    </div>
+                    
                     <Footer />
                 </ScrollToTop>
             </BrowserRouter>

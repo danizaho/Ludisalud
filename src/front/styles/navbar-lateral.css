@@ -1,0 +1,24 @@
+.navbar-lateral{
+    background-color: aquamarine;
+    color:red;
+    height: 100vh;
+    display: flex;
+}
+.container {
+   margin-left: 0;
+   
+    top: 0;
+    bottom: 0;
+ 
+    overflow-y: auto; /* Para permitir desplazamiento vertical si el contenido es más largo que el navbar */
+    background-color: #fff;
+   
+    z-index: 1000;
+  }
+  
+.nav-lateral-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribuye uniformemente el espacio entre los elementos */
+    height: 100%; /* Ocupa toda la altura del contenedor */
+}
