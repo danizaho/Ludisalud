@@ -1,0 +1,12 @@
+.post-it{
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.post-it p{
+    color: rgb(253, 127, 255);
+    font-size: 20px;
+    
+}
