@@ -5,12 +5,19 @@ import  "../../styles/construction.css"
 export const Construction = () =>{
     return(
         <div className="construccion">
-            <h2>La página que esta buscando actualmente esta en construccion</h2>
-            <div className="post-it">
+            <h2>Ups! La página que estas buscando esta en construcción, pero no te preocupes! Estamos trabajando 
+                en ello, así que vuelve pronto para ver:
+            </h2>
+            <div className="row">
+            <div className="post-it col-md-4">
                 <p>Nuevo contenido</p>
             </div>
-            <div className="post-it">
+            <div className="post-it col-md-4">
                 <p>Nuevas actividades</p>
+            </div>
+            <div className="post-it col-md-4">
+                <p>Nuevas funciones</p>
+            </div>
             </div>
 
         </div>

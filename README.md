@@ -1,2 +1,0 @@
-<h1>Boardgames for all</h1>
-<p>Proyecto de una web sobre juegos de mesa en la que se le recomendará a las personas una serie de juegos de mesa en función de una serie de preguntas. En una versión inicial, el usuario únicamente podrá encontrar los juegos, pero en versiones posteriores se puede enlazar a tiendas para directamente poder hacer la compra</p>

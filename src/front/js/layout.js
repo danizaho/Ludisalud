@@ -28,12 +28,12 @@ const Layout = () => {
                 <ScrollToTop>
                     <Navbar />
                     <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-3">
                     <NavbarLateral />
                     </div>
 
                   
-                    <div className="col-md-9">
+                    <div className="col-9">
                     <Routes>
                         <Route element={<Home />} path="/home" />
                         <Route element={<Demo />} path="/demo" />

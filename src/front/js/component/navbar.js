@@ -15,7 +15,7 @@ export const Navbar = () => {
        
         
         <Link to={"/formulario"} className="favoritos-button">Formulario </Link>
-        <a className="nav-link" href="#">Pricing</a>
+        
         <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Hello</a>
       </div>
 	  <a className="user"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
