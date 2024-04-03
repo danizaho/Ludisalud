@@ -27,7 +27,7 @@ export const NavbarLateral = () => {
   <Link className="letter-lateral" to ={"construction"}>Quinto</Link>
   </li>
   <li className="nav-item">
-  <Link className="letter-lateral" to ={"construction"}>Sexto</Link>
+  <Link className="letter-lateral" to ={"sexto"}>Sexto</Link>
   </li>
   
 </ul>

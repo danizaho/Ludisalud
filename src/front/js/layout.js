@@ -9,6 +9,7 @@ import { Formulario } from "./pages/formulario";
 import { Single } from "./pages/single";
 import injectContext from "./store/appContext";
 import { Construction } from "./pages/construction";
+import { Sexto } from "./pages/sexto";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
@@ -41,6 +42,7 @@ const Layout = () => {
                         <Route element={<h1>Not found!</h1>} />
                         <Route element={<Formulario />} path="/formulario"/>
                         <Route element={<Construction />} path="/construction"/>
+                        <Route element={<Sexto />} path="/sexto"/>
                         
                     </Routes>
                     </div>
