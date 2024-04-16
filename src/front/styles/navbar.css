@@ -1,4 +1,33 @@
-.main-navbar{
+.main-navbar {
     background-color: #4d79ff;
-  
+    padding: 10px;  /* Agrega relleno interno a la barra de navegación */
+}
+
+.main-navbar .navbar-nav {
+    display: flex;
+    gap: 20px;  /* Agrega espacio entre elementos del menú */
+    align-items: center;  /* Alinea verticalmente los elementos del menú */
+}
+
+.main-navbar .navbar-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Estilos para el botón de registro */
+.main-navbar .user {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: auto;  /* Empuja el botón de registro hacia la derecha */
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para el ícono de usuario */
+.main-navbar .user svg {
+    margin-right: 5px;  /* Agrega espacio entre el ícono y el texto */
 }
