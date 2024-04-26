@@ -19,7 +19,7 @@
 .letter-lateral {
   color: #ffffff; /* Color del texto */
   text-decoration: none; /* Elimina el subrayado del texto */
-  font-size: 18px; /* Tamaño de fuente del texto */
+  font-size: 50px; /* Tamaño de fuente del texto */
 }
 
 .letter-lateral:hover {

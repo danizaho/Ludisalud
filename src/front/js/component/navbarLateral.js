@@ -10,32 +10,32 @@ export const NavbarLateral = () => {
           <ul className="nav-lateral-content flex-column">
             <li className="nav-item">
               <Link className="letter-lateral" to={"/construction"}>
-                Primero
+                1º
               </Link>
             </li>
             <li className="nav-item">
               <Link className="letter-lateral" to={"/construction"}>
-                Segundo
+                2º
               </Link>
             </li>
             <li className="nav-item">
               <Link className="letter-lateral" to={"/construction"}>
-                Tercero
+                3º
               </Link>
             </li>
             <li className="nav-item">
               <Link className="letter-lateral" to={"/construction"}>
-                Cuarto
+                4º
               </Link>
             </li>
             <li className="nav-item">
               <Link className="letter-lateral" to={"/construction"}>
-                Quinto
+                5º
               </Link>
             </li>
             <li className="nav-item">
               <Link className="letter-lateral" to={"/sexto"}>
-                Sexto
+                6º
               </Link>
             </li>
           </ul>
